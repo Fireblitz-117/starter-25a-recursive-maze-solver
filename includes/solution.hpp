@@ -1,7 +1,9 @@
 #ifndef SOLUTION_HPP
 #define SOLUTION_HPP
+#include <iostream>
 #include <utility>
 #include <vector>
+
 
 std::vector<std::pair<unsigned int, unsigned int>> SolveMaze(
     const std::vector<std::vector<char>>& maze,
